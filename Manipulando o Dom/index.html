@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Manipulando o DOM</title>
+    <script src="Js/script.js"></script>
+</head>
+<body>
+    <h1>Adicionando Casas</h1>
+        <form>
+            <p>
+                <label>Número da Residência:</label>
+                <input type="text" id="numero" name="numero">
+            </p>
+            <p>
+                <label>Área:</label>
+                <input type="text" id="area" name="area">
+            </p>
+            <p>
+                <label>Bairro:</label>
+                <input type="text" id="bairro" name="bairro">
+            </p>
+            <p>
+                <label>Cidade:</label>
+                <input type="text" id="cidade" name="cidade">
+            </p>
+            <button onclick="salvarCasas()" type="button">Salvar</button>
+        </form>
+
+        <ul id="listadecasas"></ul>
+</body>
+</html>

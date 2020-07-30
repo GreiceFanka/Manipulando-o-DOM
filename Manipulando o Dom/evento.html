@@ -1,0 +1,29 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Evento para o Formulário</title>
+  <script src="Js/form-events.js"></script>
+</head>
+<body>
+  <form onsubmit="save()">
+    <p>
+      <label>Nome: </label>
+      <input type="text" name="name" />
+    </p>
+
+    <p>
+      <label>Programa em:</label>
+      <select name="programming-lang">
+        <option value="Javascript">Javascript</option>
+        <option value="Ruby">Ruby</option>
+        <option value="Python">Python</option>
+        <option value="PHP">PHP</option>
+      </select>
+    </p>
+
+    <button type="submit">Salvar</button>
+  </form>
+</body>
+</html>
